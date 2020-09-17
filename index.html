@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Даниил, портфолио, университет ИТМО, 3 курс, молодец">
+    <title>Парван Даниил M33081</title>
+    <link rel="stylesheet" href="css/outlines.css">
+    <link rel="stylesheet" href="css/css.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header id="head">
+    <div>
+        <h2>
+            <img src="img/2a9aaa87fe1940d031f2e2cffdf6253e.jpg" height="100" width="100" style="border-radius: 50%">
+            Парван Даниил M33081
+        </h2>
+    </div>
+</header>
+
+<main>
+    <section>
+        <h4>
+            Мои навыки
+        </h4>
+        <ul>
+            <li>Знаю язык программирования Java</li>
+            <li>Чуть-чуть верстал на Bootstrap 4</li>
+            <li>Ранг Ancient в доте</li>
+        </ul>
+    </section>
+
+    <section>
+        <h4>
+            Цели на этот год
+        </h4>
+        <ul>
+            <li> Закончить год с хорошими оценками</li>
+            <li> Научится нормально верстать, а не вот это вот</li>
+            <li> Изучить javaSpring</li>
+        </ul>
+    </section>
+
+    <section>
+        <h4>
+            Мое тотемное животное из ASCII
+        </h4>
+        <span> Покемон Чаризард - ленивый и не послушный, но в нужный момент может помочь</span>
+        <pre>
+            ."-,.__
+                 `.     `.  ,
+              .--'  .._,'"-' `.
+             .    .'         `'
+             `.   /          ,'
+               `  '--.   ,-"'
+                `"`   |  \
+                   -. \, |
+                    `--Y.'      ___.
+                         \     L._, \
+               _.,        `.   <  <\                _
+             ,' '           `, `.   | \            ( `
+          ../, `.            `  |    .\`.           \ \_
+         ,' ,..  .           _.,'    ||\l            )  '".
+        , ,'   \           ,'.-.`-._,'  |           .  _._`.
+      ,' /      \ \        `' ' `--/   | \          / /   ..\
+    .'  /        \ .         |\__ - _ ,'` `        / /     `.`.
+    |  '          ..         `-...-"  |  `-'      / /        . `.
+    | /           |L__           |    |          / /          `. `.
+   , /            .   .          |    |         / /             ` `
+  / /          ,. ,`._ `-_       |    |  _   ,-' /               ` \
+ / .           \"`_/. `-_ \_,.  ,'    +-' `-'  _,        ..,-.    \`.
+.  '         .-f    ,'   `    '.       \__.---'     _   .'   '     \ \
+' /          `.'    l     .' /          \..      ,_|/   `.  ,'`     L`
+|'      _.-""` `.    \ _,'  `            \ `.___`.'"`-.  , |   |    | \
+||    ,'      `. `.   '       _,...._        `  |    `/ '  |   '     .|
+||  ,'          `. ;.,.---' ,'       `.   `.. `-'  .-' /_ .'    ;_   ||
+|| '              V      / /           `   | `   ,'   ,' '.    !  `. ||
+||/            _,-------7 '              . |  `-'    l         /    `||
+. |          ,' .-   ,' ||               | .-.        `.      .'     ||
+ `'        ,'    `".'    |               |    `.        '. -.'       `'
+          /      ,'      |               |,'    \-.._,.'/'
+          .     /        .               .       \    .''
+        .`.    |         `.             /         :_,'.'
+          \ `...\   _     ,'-.        .'         /_.-'
+           `-.__ `,  `'   .  _.>----''.  _  __  /
+                .'        /"'          |  "'   '_
+               /_|.-'\ ,".             '.'`__'-( \
+                 / ,"'"\,'               `/  `-.|"
+        </pre>
+    </section>
+    <section>
+        <h4>
+            Какой-то рандомный код
+        </h4>
+        <pre>
+        <code>
+           package ru.danka.nexing.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+import javax.persistence.*;
+import java.io.Serializable;
+import java.util.Date;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
+@Entity
+@Table(name = "users")
+public class User implements Serializable {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "id")
+    private Long id;
+
+    @Column(name = "email")
+    private String email;
+
+    @Column(name = "username")
+    private String username;
+
+    @Column(name = "status", nullable = false)
+    private UserStatus status = UserStatus.UNKNOWN;
+
+    private Date lastChangeDate = new Date();
+}
+        </code>
+            </pre>
+    </section>
+    <section>
+        <h4>
+            Любимия цитата
+        </h4>
+        <blockquote>
+            <p>
+            Ты думаешь, что ты понял это, хотя на самом деле всего лишь думаешь, что ты понял то, о чем ты думаешь.<sub>Какаши Хатаке (из аниме Наруто)</sub>
+            </p>
+        </blockquote>
+    </section>
+</main>
+
+<footer>
+<h4>
+     Контактная информация
+</h4>
+    <ul>
+        <li> Телефон: 8(800)555-35-35</li>
+        <li> <a href="https://vk.com/mossobyanin">Вконтакте</a></li>
+    </ul>
+
+</footer>
+
+
+</body>
+</html>
