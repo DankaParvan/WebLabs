@@ -1,5 +1,13 @@
 body{
-    background-color: antiquewhite;
+    background-image: url("../img/background_main.dark.jpg");
+    background-repeat:no-repeat;
+    /*background-position: center 64px;*/
+    /*margin:0 auto;*/
+    background-position: center center;
+
+    background-attachment: fixed;
+
+    /*background-color: antiquewhite;*/
     font-family: 'PT Sans Caption', sans-serif;
 }
 .marg{
@@ -8,6 +16,8 @@ body{
 #head{
     margin: 10px;
     background-color: whitesmoke;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 #upper{
     padding-bottom: 50px;
@@ -15,10 +25,14 @@ body{
 #main{
     margin: 10px;
     background-color: whitesmoke;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 #foot{
     margin: 10px;
     background-color: whitesmoke;
+    margin-left: 300px;
+    margin-right: 300px;
 
 }
