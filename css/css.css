@@ -36,3 +36,18 @@ body{
     margin-right: 300px;
 
 }
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content:center;
+}
+
+#galya{
+    margin: 10px;
+    background-color: whitesmoke;
+    margin-left: 300px;
+    margin-right: 300px;
+
+
+}
